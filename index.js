@@ -1,6 +1,9 @@
 // Write your code here!
-main.remove();
+let a=document.getElementById('main');
+main.remove() ; 
 
-let newHeader=document.createElement("H1");
+
+let newHeader=document.createElement('h1');
+newHeader.id='victory'; 
 newHeader.innerHTML="YUSRA is the champion";
-H1=document.getElementByID("H1#victory");
+
